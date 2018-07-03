@@ -6,9 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.webservice")
-public class SpringbootWebserviceApplication {
+public class WebserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootWebserviceApplication.class, args);
+		SpringApplication.run(WebserviceApplication.class, args);
 	}
 }
